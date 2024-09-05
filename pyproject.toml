@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "voiceagent"
+version = "0.0.1"
+description = "A package to make it easy to interact with LLM's using voice"
+authors = ["Sami Maameri <ssmaameri@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+assemblyai = "^0.33.0"
+elevenlabs = "^1.7.0"
+openai = "^1.43.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
