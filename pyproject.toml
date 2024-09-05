@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "voiceagent"
-version = "0.0.1"
+version = "0.0.2"
 description = "A package to make it easy to interact with LLM's using voice"
 authors = ["Sami Maameri <ssmaameri@gmail.com>"]
 license = "MIT"
