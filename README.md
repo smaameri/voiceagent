@@ -2,7 +2,13 @@
 
 A python package that makes it easy to interact with LLM's using voice
 
-## Installation
+## Setup
+Install Port Audio on you OS
+```bash
+brew install portaudio #(MacOS)
+apt install portaudio19-dev #(Debian/Ubuntu)
+```
+Then, setup your project, and install the python package
 ```bash
 pip install voiceagent
 ```
