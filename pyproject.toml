@@ -11,8 +11,13 @@ python = "^3.12"
 assemblyai = "^0.33.0"
 elevenlabs = "^1.7.0"
 openai = "^1.43.0"
+pyaudio = "^0.2.14"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+Homepage = "https://github.com/smaameri/voiceagent"
+Issues = "https://github.com/smaameri/voiceagent/issues"
