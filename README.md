@@ -13,6 +13,11 @@ Then, setup your project, and install the python package
 pip install voiceagent
 ```
 
+### API Keys
+The project requires you to have API Keys for AssemblyAI and ElevenLabs, and may require
+you to be on the paid versions of those platforms also in order to access the transcription
+features used.
+
 # Description
 Voice Agent currently uses AssemblyAI for Speech to Text and ElevenLabs for Text to Speech
 
@@ -65,6 +70,21 @@ the speakers.
 
 For convenience, the example script also streams the chat and responses to the command line
 
+Setup you .env file to look like so, with the values filled in
+```
+OPENAI_API_KEY=
+ASSEMBLYAI_API_KEY=
+ELEVENLABS_API_KEY=
+```
+
+Install the required packages
+```bash
+pip install voiceagent
+pip install python-dotenv
+```
+
+Then save the below script as app.py, and run it
+```bash
 ```python
 from os import getenv
 from voiceagent.voice_agent import VoiceAgent
